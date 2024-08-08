@@ -17,3 +17,5 @@ dvd_collection[0] = DVD("Inception", 2010, "Christopher Nolan")
 
 # Print the details of the first DVD in the collection
 print(dvd_collection)
+
+print(len(dvd_collection))
