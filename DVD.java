@@ -43,3 +43,13 @@ dvdCollection[9] = findingDoryDVD;
 
 // Put "The Lion King" into the 3rd place: index 2.
 dvdCollection[2] = lionKingDVD;
+
+
+DVD starWarsDVD = new DVD("Star Wars", 1977, "George Lucas");
+dvdCollection[3] = starWarsDVD;
+
+//Print out what's in the indexes 7,10, and 3.
+System.out.println(dvdCollection[7]);
+System.out.println(dvdCollection[10]);
+System.out.println(dvdCollection[3]);
+
