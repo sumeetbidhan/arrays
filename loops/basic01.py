@@ -38,3 +38,34 @@ for i in range(10):
   if i == 6:
     break # Stop the loop when i is 6
   print(i)
+
+print()
+# Nested loop with Indexing
+# Create a 3 X 3 identity matrix
+n = 3
+identity_matrix = []
+for i in range(n):
+  row = []
+  for j in range(n):
+    if i == j:
+      row.append(1)
+    else:
+      row.append(0)
+  identity_matrix.append(row)
+
+# Print the identity matrix
+for row in identity_matrix:
+  print(row)
+
+#Looping Backwards with range
+for i in range(4, -1,- 1):
+  print(i)
+
+print()
+# Combining len and Nested Loops to Compare the list elements
+numbers = [3, 1, 4, 1, 5, 9]
+
+# Find and print all pairs of elements
+for i in range(len(numbers)):
+  for j in range(i + 1, len(numbers)):
+    print(f"Pair: ({numbers[i]}, {numbers[j]})")
